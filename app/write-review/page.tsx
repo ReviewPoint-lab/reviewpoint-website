@@ -3,7 +3,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { createClient } from "@/Lib/supabase";
+import { createClient } from "@/lib/supabase";
 
 type Company = {
   id: string;
