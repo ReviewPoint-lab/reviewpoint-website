@@ -41,6 +41,23 @@ export default async function CompanyPage({ params }: Props) {
             data, not verified customer feedback.
           </p>
         </div>
+
+        <section style={{ marginTop: 32 }}>
+          <h2>Customer reviews</h2>
+          <p className="sub">
+            Customer experiences and feedback will appear here.
+          </p>
+
+          <div className="card">
+            <h3>No customer reviews yet</h3>
+            <p>
+              Be the first to share your experience with {company.name}.
+            </p>
+            <Link className="button" href="/write-review">
+              Write a review
+            </Link>
+          </div>
+        </section>
       </div>
     </main>
   );
